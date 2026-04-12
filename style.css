@@ -1,0 +1,73 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+
+main{
+ background-image: url(./assests/images/bg);
+height: 80vh;
+position: inherit;
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-size:max(1200px ,100vw);
+}
+main .box{
+    height: 80vh;
+width: 100%;
+opacity: 0.44;
+background-color: black;
+position: absolute;
+top: 0;
+}
+
+svg{
+    fill: red;
+width: 10%;
+height: auto;
+margin-left: 10%;
+margin-top: 1%;
+position: relative;
+z-index: 10;
+color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 80vw;
+    height: 62px;  
+}
+nav button{
+    position: relative;
+z-index: 10;
+}
+
+/* eh style da system nhi pata because eh code co-pilot toh copy krvaya wa  */
+.buttons {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 320px;
+}
+
+.hero{
+  
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   min-height: 80vh;
+   color: white;
+      position: relative;
+}
+
+
+
+
